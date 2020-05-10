@@ -34,3 +34,17 @@ a {
 nav a {
   color: #250223;
 }
+
+
+body {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.new-header {
+  background: rgba(231, 164, 226, 0.897);
+border-width: 10;
+border-style: solid;
+border-color: #fff;
+
+}
