@@ -35,7 +35,6 @@ nav a {
   color: #250223;
 }
 
-
 body {
   max-width: 700px;
   margin: 20px auto;
@@ -43,9 +42,9 @@ body {
 }
 .new-header {
   background: rgba(231, 164, 226, 0.897);
-border-width: 10;
-border-style: solid;
-border-color: #fff;
+  border-width: 10;
+  border-style: solid;
+  border-color: #fff;
 }
 .navigation {
   background: rgb(192, 123, 226);
@@ -62,7 +61,7 @@ border-color: #fff;
   padding: 1px;
 }
 .second-header__description {
-  color: #000
+  color: #000;
 }
 
 .second-header__title {
@@ -73,7 +72,7 @@ border-color: #fff;
 }
 
 .lila-header {
- padding: 2px;
+  padding: 2px;
 }
 .lila-header__description {
   color: #000;
@@ -85,8 +84,7 @@ border-color: #fff;
   border-style: solid;
   border-color: #2e294e;
 }
-.fragrant-footer{
-
+.fragrant-footer {
 }
 .fragrant-footer__description {
   color: #000;

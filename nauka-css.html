@@ -1,69 +1,83 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-   <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navigation">
-            <a clas="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
-            <a clas="navigation__link" href="nauka-html.html">Nauka html</a>
-            <a clas="navigation__link" href="nauka-css.html">Nauka css</a>
-          </nav>
+      <nav class="navigation">
+        <a clas="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+        <a clas="navigation__link" href="nauka-html.html">Nauka html</a>
+        <a clas="navigation__link" href="nauka-css.html">Nauka css</a>
+      </nav>
     </header>
 
     <main>
+      <header id="top">
+        <h1 class="new-header">Nauka CSS</h1>
+      </header>
 
-        <header id="top">
-            <h1 class="new-header">Nauka CSS</h1>
-        </header>
+      <section class="second-header">
+        <h2 class="second-header__title">Budowa atrybutów</h2>
 
-        <section class="second-header">
-            <h2 class="second-header__title">Budowa atrybutów</h2>
+        <p class="second-header__description">
+          &lt; znacznik atrybut="wartość" &gt; treść &lt;/znacznik &gt;
+        </p>
+      </section>
 
-           <p class="second-header__description"> &lt; znacznik atrybut="wartość" &gt; treść &lt;/znacznik &gt; </p>
-        </section>
-
-        <section class="second-header" id="notatki">
-            <h2 class="second-header__title">Znaczniki w HTML-u</h2>
-           <p class="second-header__description"> &lt; mail &gt; główna część dokumentu,<br/>
-           &lt; section &gt; sekcje dokumentu,<br/>
-            &lt; article &gt; samodzielne treści,<br/>
-            &lt; header &gt; nagłówek dokumentu/sekcji/artykułu,<br/>
-            &lt; footer &gt; stopka dokumentu, sekcji,<br/>
-            &lt; h1-h6 &gt; tekstowe nagłówki tytułowe,<br/>
-            &lt; p &gt; paragraf/akapit,<br/>
-            &lt; br/ &gt; złamanie linii,<br/>
-            &lt; b &gt; pogrubienie, <br/>
-            &lt; i &gt; kursywa, <br/>
-            &lt; strong &gt; pogrubienie, ma znaczenie semantyczne, <br/>
-            &lt; em &gt; kursywa, ma znaczenie semantyczne, <br/>
-            &lt; a &gt; tworzy łącza wewnątrz i zewnątrz dokumentu:<br/>
-            &lt; a href="target" &gt; opis łącza &lt; /a &gt; <br/>
-            &lt; nav &gt; nawigacja, <br/>
-            &lt; img &gt; obrazek o podanym adresie: <br/>
-            &lt; img src= "" alt = "" /&gt;
-        
+      <section class="second-header" id="notatki">
+        <h2 class="second-header__title">Znaczniki w HTML-u</h2>
+        <p class="second-header__description">
+          &lt; mail &gt; główna część dokumentu,<br />
+          &lt; section &gt; sekcje dokumentu,<br />
+          &lt; article &gt; samodzielne treści,<br />
+          &lt; header &gt; nagłówek dokumentu/sekcji/artykułu,<br />
+          &lt; footer &gt; stopka dokumentu, sekcji,<br />
+          &lt; h1-h6 &gt; tekstowe nagłówki tytułowe,<br />
+          &lt; p &gt; paragraf/akapit,<br />
+          &lt; br/ &gt; złamanie linii,<br />
+          &lt; b &gt; pogrubienie, <br />
+          &lt; i &gt; kursywa, <br />
+          &lt; strong &gt; pogrubienie, ma znaczenie semantyczne, <br />
+          &lt; em &gt; kursywa, ma znaczenie semantyczne, <br />
+          &lt; a &gt; tworzy łącza wewnątrz i zewnątrz dokumentu:<br />
+          &lt; a href="target" &gt; opis łącza &lt; /a &gt; <br />
+          &lt; nav &gt; nawigacja, <br />
+          &lt; img &gt; obrazek o podanym adresie: <br />
+          &lt; img src= "" alt = "" /&gt;
         </p>
 
-            <article class="lila-header">
-                <h3 class="lila-header__title">Przydatne linki</h3>
-                <p class="lila-header__description"> <a href="https://validator.w3.org/nu/#textarea" target="blank">https://validator.w3.org/nu/#textarea</a> tu sprawdzisz kod HTML <br/>
-                <a href="https://developer.mozilla.org/en-us/docs/Web/HTML/Global_attributes" target="blank">https://developer.mozilla.org/en-us/docs/Web/HTML/Global_attributes</a> spis atrybutów <br/>
-                <a href="https://coolors.co" target="blank">https://coolors.co</a> tu  wybierzesz kolor <br/>
-                <a href="https://codepen.io" target="blank">https://codepen.io</a> tu sprawdzisz kod i sobie poćwiczysz <br/>
-                </p>
-            </article>
-        </section>
+        <article class="lila-header">
+          <h3 class="lila-header__title">Przydatne linki</h3>
+          <p class="lila-header__description">
+            <a href="https://validator.w3.org/nu/#textarea" target="blank"
+              >https://validator.w3.org/nu/#textarea</a
+            >
+            tu sprawdzisz kod HTML <br />
+            <a
+              href="https://developer.mozilla.org/en-us/docs/Web/HTML/Global_attributes"
+              target="blank"
+              >https://developer.mozilla.org/en-us/docs/Web/HTML/Global_attributes</a
+            >
+            spis atrybutów <br />
+            <a href="https://coolors.co" target="blank">https://coolors.co</a>
+            tu wybierzesz kolor <br />
+            <a href="https://codepen.io" target="blank">https://codepen.io</a>
+            tu sprawdzisz kod i sobie poćwiczysz <br />
+          </p>
+        </article>
+      </section>
     </main>
     <footer class="fragrant-footer">
-        <p class="fragrant-footer__description"><strong>Nie jest lekko!</strong> <a href="#top">Wróć na górę strony</a></p>
+      <p class="fragrant-footer__description">
+        <strong>Nie jest lekko!</strong> <a href="#top">Wróć na górę strony</a>
+      </p>
     </footer>
-</body>
-
+  </body>
 </html>
