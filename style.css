@@ -46,5 +46,48 @@ body {
 border-width: 10;
 border-style: solid;
 border-color: #fff;
+}
+.navigation {
+  background: rgb(192, 123, 226);
+  padding: 10px;
+  border-style: solid;
+  border-color: #2e294e;
+}
+.navigation__link {
+  color: #250223;
+  display: inline-block;
+  margin-right: 20px;
+}
+.second-header {
+  padding: 1px;
+}
+.second-header__description {
+  color: #000
+}
 
+.second-header__title {
+  background: #fff;
+  color: #2e294e;
+  border-style: solid;
+  border-color: #2e294e;
+}
+
+.lila-header {
+ padding: 2px;
+}
+.lila-header__description {
+  color: #000;
+}
+
+.lila-header__title {
+  background: #fff;
+  color: #542344;
+  border-style: solid;
+  border-color: #2e294e;
+}
+.fragrant-footer{
+
+}
+.fragrant-footer__description {
+  color: #000;
 }

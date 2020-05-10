@@ -9,10 +9,10 @@
 
   <body>
     <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">Nauka html</a>
-        <a href="nauka-css.html">Nauka css</a>
+      <nav class="navigation">
+        <a clas="navigation__link" href="index.html">Strona główna</a>
+        <a clas="navigation__link" href="nauka-html.html">Nauka html</a>
+        <a clas="navigation__link" href="nauka-css.html">Nauka css</a>
       </nav>
     </header>
 
@@ -21,10 +21,10 @@
         <h1 class="new-header">Ania Gaładyk – szkolenie Maćka Korsana WTF</h1>
       </header>
 
-      <section>
-        <h2 class="special-header">O mnie</h2>
+      <section class="second-header">
+        <h2 class="second-header__title">O mnie</h2>
         <img src="Ania.jpg" height="200" alt="Uśmiechnięta ja" />
-        <p>
+        <p class="second-header__description">
           Na co dzień jestem pracownikiem szkoły, uczę młodych ludzi przedmiotów
           zawodowych.<br />
           Jestem również mamą dwójki dzieci, które nie dają ani na chwilę
@@ -34,35 +34,35 @@
           <br />
         </p>
         <img src="ziz.jpg" height="200" alt="robaczki" /> <br />
-        <p>
+        <p class="second-header__description">
           Szkolenie WTF odbywa się na stronie
           <a href="https://cotenfrontend.pl">WTF</a>
           <a href="#notatki">Przejdź do notatek</a>
         </p>
       </section>
 
-      <section id="notatki">
-        <h2 class="special-header">Moje notatki:</h2>
-        <article>
-          <h3 class="lila-header">
+      <section class="second-header" id="notatki">
+        <h2 class="second-header__title">Moje notatki:</h2>
+        <article class="lila-header">
+          <h3 class="lila-header__title">
             Strona internetowa ma warstwy jak cebula i Shrek ;)
           </h3>
-          - <b>0</b> – treść (najważniejsza),<br />
+         <p class="lila-header__description">- <b>0</b> – treść (najważniejsza),<br />
           - <b>1 lub 2 </b>– semantyka: HTML,<br />
           - <b>2 lub 3</b> – prezentacja: CSS (wygląd),<br />
-          - <b> 3 lub 4 </b>– interakcja: Java Script.<br />
+          - <b> 3 lub 4 </b>– interakcja: Java Script.<br /></p>
         </article>
         <article>
-          <h3 class="lila-header">HTML a CSS?</h3>
-          <p>
+          <h3 class="lila-header__title">HTML a CSS?</h3>
+          <p class="lila-header__description">
             <b>HTML</b> składa się ze <i>znaczników</i>, a <b>CSS</b> z
             <i>reguł</i>.
           </p>
         </article>
       </section>
     </main>
-    <footer>
-      <p>
+    <footer class="fragrant-footer">
+      <p class="fragrant-footer__description">
         <strong>Trzymajcie kciuki, abym dała radę ogarnąć to szkolenie!</strong>
         <a href="#top">Wróć na górę strony</a>
       </p>

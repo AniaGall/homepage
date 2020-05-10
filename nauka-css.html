@@ -10,11 +10,11 @@
 
 <body>
     <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka html</a>
-            <a href="nauka-css.html">Nauka css</a>
-        </nav>
+        <nav class="navigation">
+            <a clas="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+            <a clas="navigation__link" href="nauka-html.html">Nauka html</a>
+            <a clas="navigation__link" href="nauka-css.html">Nauka css</a>
+          </nav>
     </header>
 
     <main>
@@ -23,15 +23,15 @@
             <h1 class="new-header">Nauka CSS</h1>
         </header>
 
-        <section>
-            <h2 class="special-header">Budowa atrybutów</h2>
+        <section class="second-header">
+            <h2 class="second-header__title">Budowa atrybutów</h2>
 
-           <p> &lt; znacznik atrybut="wartość" &gt; treść &lt;/znacznik &gt; </p>
+           <p class="second-header__description"> &lt; znacznik atrybut="wartość" &gt; treść &lt;/znacznik &gt; </p>
         </section>
 
-        <section id="notatki">
-            <h2 class="special-header">Znaczniki w HTML-u</h2>
-           <p> &lt; mail &gt; główna część dokumentu,<br/>
+        <section class="second-header" id="notatki">
+            <h2 class="second-header__title">Znaczniki w HTML-u</h2>
+           <p class="second-header__description"> &lt; mail &gt; główna część dokumentu,<br/>
            &lt; section &gt; sekcje dokumentu,<br/>
             &lt; article &gt; samodzielne treści,<br/>
             &lt; header &gt; nagłówek dokumentu/sekcji/artykułu,<br/>
@@ -51,9 +51,9 @@
         
         </p>
 
-            <article>
-                <h3 class="lila-header">Przydatne linki</h3>
-                <p> <a href="https://validator.w3.org/nu/#textarea" target="blank">https://validator.w3.org/nu/#textarea</a> tu sprawdzisz kod HTML <br/>
+            <article class="lila-header">
+                <h3 class="lila-header__title">Przydatne linki</h3>
+                <p class="lila-header__description"> <a href="https://validator.w3.org/nu/#textarea" target="blank">https://validator.w3.org/nu/#textarea</a> tu sprawdzisz kod HTML <br/>
                 <a href="https://developer.mozilla.org/en-us/docs/Web/HTML/Global_attributes" target="blank">https://developer.mozilla.org/en-us/docs/Web/HTML/Global_attributes</a> spis atrybutów <br/>
                 <a href="https://coolors.co" target="blank">https://coolors.co</a> tu  wybierzesz kolor <br/>
                 <a href="https://codepen.io" target="blank">https://codepen.io</a> tu sprawdzisz kod i sobie poćwiczysz <br/>
@@ -61,8 +61,8 @@
             </article>
         </section>
     </main>
-    <footer>
-        <p><strong>Nie jest lekko!</strong> <a href="#top">Wróć na górę strony</a></p>
+    <footer class="fragrant-footer">
+        <p class="fragrant-footer__description"><strong>Nie jest lekko!</strong> <a href="#top">Wróć na górę strony</a></p>
     </footer>
 </body>
 

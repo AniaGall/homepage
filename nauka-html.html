@@ -9,10 +9,10 @@
 
   <body>
     <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">Nauka html</a>
-        <a href="nauka-css.html">Nauka css</a>
+      <nav class="navigation">
+        <a clas="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a clas="navigation__link" href="nauka-html.html">Nauka html</a>
+        <a clas="navigation__link" href="nauka-css.html">Nauka css</a>
       </nav>
     </header>
 
@@ -21,15 +21,15 @@
         <h1 class="new-header">Nauka HTML</h1>
       </header>
 
-      <section>
-        <h2 class="special-header">Budowa znaczników</h2>
+      <section class="second-header">
+        <h2 class="second-header__title">Budowa znaczników</h2>
 
-        <p>&lt; znacznik atrybut="wartość" &gt; treść &lt;/znacznik &gt;</p>
+        <p class="second-header__description">&lt; znacznik atrybut="wartość" &gt; treść &lt;/znacznik &gt;</p>
       </section>
 
-      <section id="notatki">
-        <h2 class="special-header">Znaczniki w HTML-u</h2>
-        <p>
+      <section class="second-header" id="notatki">
+        <h2 class="second-header__title">Znaczniki w HTML-u</h2>
+        <p class="second-header__description">
           &lt; mail &gt; główna część dokumentu,<br />
           &lt; section &gt; sekcje dokumentu,<br />
           &lt; article &gt; samodzielne treści,<br />
@@ -49,9 +49,9 @@
           &lt; img src= "" alt = "" /&gt;
         </p>
 
-        <article>
-          <h3 class="lila-header">Przydatne linki</h3>
-          <p>
+        <article class="lila-header">
+          <h3 class="lila-header__title">Przydatne linki</h3>
+          <p class="lila-header__description">
             <a href="https://validator.w3.org/nu/#textarea" target="blank"
               >https://validator.w3.org/nu/#textarea</a
             >
@@ -70,8 +70,8 @@
         </article>
       </section>
     </main>
-    <footer>
-      <p>
+    <footer class="fragrant-footer">
+      <p class="fragrant-footer__description">
         <strong>Nie jest lekko!</strong> <a href="#top">Wróć na górę strony</a>
       </p>
     </footer>
