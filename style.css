@@ -35,12 +35,14 @@ nav a {
   color: #250223;
 }
 
-body {
-  max-width: 700px;
-  margin: 20px auto;
-  padding: 10px;
+.new {
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.new-header {
+.new__header {
+}
+
+.new-first__header {
   background: rgba(231, 164, 226, 0.897);
   border-width: 10;
   border-style: solid;
@@ -63,6 +65,13 @@ body {
 .second-header__description {
   color: #000;
 }
+.second-header__link {
+
+}
+
+.second-header__picture {
+
+}
 
 .second-header__title {
   background: #fff;
@@ -77,15 +86,22 @@ body {
 .lila-header__description {
   color: #000;
 }
-
+.lila-header__link {
+  color: #81239e;
+}
 .lila-header__title {
   background: #fff;
   color: #542344;
   border-style: solid;
   border-color: #2e294e;
 }
-.fragrant-footer {
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.fragrant-footer__description {
+.footer__description {
   color: #000;
+}
+.footer__link {
+  color: #81239e;
 }
