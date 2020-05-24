@@ -4,26 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <header>
       <nav class="navigation flex">
-        <div class="flex_item"><a clas="navigation__link" href="index.html">Strona główna</a></div>
-        <div class="flex_item"><a clas="navigation__link" href="nauka-html.html">Nauka html</a></div>
-        <div class="flex_item"><a clas="navigation__link" href="nauka-css.html">Nauka css</a></div>
+        <div class="flex_item">
+          <a clas="navigation__link" href="index.html">Strona główna</a>
+        </div>
+        <div class="flex_item">
+          <a clas="navigation__link" href="nauka-html.html">Nauka html</a>
+        </div>
+        <div class="flex_item">
+          <a clas="navigation__link" href="nauka-css.html">Nauka css</a>
+        </div>
       </nav>
     </header>
 
     <main class="new">
       <header class="new__header" id="top">
-        <h1 class="new-first__header new-first__header--js" >Ania Gaładyk – szkolenie Maćka Korsana WTF</h1>
+        <h1 class="new-first__header new-first__header--js">
+          Ania Gaładyk – szkolenie Maćka Korsana WTF
+        </h1>
+        <button class="action--js">Zmień nagłówek</button>
       </header>
-
+      <div class="section-contener">
       <section class="second-header">
         <h2 class="second-header__title">O mnie</h2>
-        <img class="second-header__picture" src="Ania.jpg" height="200" alt="Uśmiechnięta ja" />
+        <img
+          class="second-header__picture"
+          src="Ania.jpg"
+          height="200"
+          alt="Uśmiechnięta ja"
+        />
         <p class="second-header__description">
           Na co dzień jestem pracownikiem szkoły, uczę młodych ludzi przedmiotów
           zawodowych.<br />
@@ -33,14 +48,20 @@
           wiedza pozwoli mi się przebranżowić.
           <br />
         </p>
-        <img class="second-header__picture" src="ziz.jpg" height="200" alt="robaczki" /> <br />
+        <img
+          class="second-header__picture"
+          src="ziz.jpg"
+          height="200"
+          alt="robaczki"
+        />
+        <br />
         <p class="second-header__description">
           Szkolenie WTF odbywa się na stronie
           <a class="second-header__link" href="https://cotenfrontend.pl">WTF</a>
           <a class="second-header__link" href="#notatki">Przejdź do notatek</a>
         </p>
       </section>
-
+    </div>
       <section class="second-header" id="notatki">
         <h2 class="second-header__title">Moje notatki:</h2>
         <article class="lila-header">
@@ -54,7 +75,7 @@
             - <b> 3 lub 4 </b>– interakcja: Java Script.<br />
           </p>
         </article>
-        <article>
+        <article class="lila-header">
           <h3 class="lila-header__title">HTML a CSS?</h3>
           <p class="lila-header__description">
             <b>HTML</b> składa się ze <i>znaczników</i>, a <b>CSS</b> z
@@ -62,6 +83,15 @@
           </p>
         </article>
       </section>
+
+      <aside class="aside">
+        <h3>Jeszcze nie wiem co tu będzie</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          reiciendis nam ducimus nostrum illo quam iusto quidem eaque asperiores
+          optio veniam commodi, dolore non dolores a aliquid labore omnis fugit.
+        </p>
+      </aside>
     </main>
     <footer class="footer">
       <p class="footer__description">
