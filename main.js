@@ -75,4 +75,10 @@ console.log(
       element.classList.add('klasa-z-js');
     });
 
-    
+    const dupa = document.querySelector('.hamburger--js');
+
+   dupa.addEventListener('click', () => {
+     const nav = document.querySelector('.navigation--js');
+     nav.classList.toggle('navigation--open');
+     nav.classList.toggle('flex');
+   }) 
