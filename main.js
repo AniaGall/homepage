@@ -63,3 +63,16 @@ const myObject = {
 
 console.log(
     myObject.greet(19, "Stefcia") )
+
+
+    const button = document.querySelector('.action--js');
+
+    console.log(button)
+
+    button.addEventListener('click', () => {
+      const element = document.querySelector(".new-first__header--js");
+      element.innerHTML = `Witam wszystkich na mojej stronie.`;
+      element.classList.add('klasa-z-js');
+    });
+
+    

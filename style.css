@@ -36,6 +36,7 @@ h3 {
 }
 #top {
   background: rgb(149, 166, 184);
+  width: 100%;
 }
 
 a {
@@ -47,10 +48,14 @@ nav a {
 
 .new {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 60px auto 0;
 }
 .new__header {
-
+  background: rgba(231, 164, 226, 0.897);
+  padding: 16px;
+  min-height: 60px;
+  position: fixed;
+  top: 0;
 }
 
 .new-first__header {
@@ -60,21 +65,12 @@ nav a {
   border-color: #fff;
 }
 .navigation {
-  background: rgb(192, 123, 226);
-  padding: 10px;
-  border-style: solid;
-  border-color: #2e294e;
-  display: flex;
-  justify-content: space-around;
-  height: 100px;
-  align-items: center;
-
-
+ display: none;
 }
 .navigation__link {
   color: #250223;
-  display: inline-block;
-  margin-right: 20px;
+  display: block;
+  margin: 0 0 16px;
 }
 .second-header {
   padding: 1px;
@@ -87,6 +83,8 @@ nav a {
 }
 
 .second-header__picture {
+  display: block;
+  max-width: 100%;
 
 }
 
@@ -180,11 +178,24 @@ nav a {
   grid-template-rows: 100px;
   width: 770px;
   margin: 16px auto;
-
 }
+
   .footer {
     background: rgba(110, 90, 109, 0.897);
   }
+
+  .navigation {
+    background: rgb(192, 123, 226);
+    padding: 16px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #2e294e;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -193,3 +204,6 @@ nav a {
   }
 }
 
+.klasa-z-js {
+  background: #7ef760;
+}
