@@ -78,6 +78,7 @@ nav a {
   display: block;
   margin: 0 0 16px;
 }
+
 .second-header {
   padding: 16px;
 }
@@ -116,6 +117,15 @@ nav a {
   border-style: solid;
   border-color: #2e294e;
 }
+.lila-header__title::before {
+  content: "";
+  display: inline-block;
+  width:  12px;
+  height: 12px;
+  background: #131524;
+  border-radius: 50%;
+}
+
 .footer {
   max-width: 1000px;
   margin: 0 auto;
@@ -132,7 +142,6 @@ nav a {
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: center;
-  
 }
 
 .flex_item {
@@ -142,6 +151,7 @@ nav a {
   text-align: center;
   padding: 8px;
 }
+
 
 .grid {
   display: grid;
@@ -219,7 +229,7 @@ nav a {
 
 @media screen and (min-width: 1024px) {
   body {
-    background: #da2a6e;
+    background: linear-gradient(0deg, rgba(109,106,164,1) 23%, rgba(212,142,204,1) 56%, rgba(175,174,173,1) 76%);
   }
 }
 
